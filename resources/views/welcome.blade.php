@@ -19,7 +19,7 @@
         <div id="welcome-title">Fix My Ship</div>
       </div>
       <div id="get-started">
-        <button class="btn btn-info"><a href="/">Get Started!</a></button>
+        <!-- <button class="btn btn-info"><a href="/">Get Started!</a></button> -->
       </div>
     </div>
   </body>
