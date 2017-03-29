@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/question/1', function () {
+    return view('questions.show');
+});
+
 // Route::get('questions', 'QuestionsController@index')->name('questions');
 
 Route::auth();

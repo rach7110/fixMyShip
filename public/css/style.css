@@ -9,11 +9,11 @@ body {
     width: 100%;
     display: table;
     font-weight: 100;
-    font-family: 'Lato';
+    /*font-family: 'Lato';*/
 }
 
 .container {
-    text-align: center;
+    /*text-align: center;*/
 /*    display: table-cell;
     vertical-align: middle;*/
 }
@@ -41,4 +41,10 @@ body {
   color: white;
 }
 
+.vote-widget {
+  float: left;
+}
 
+.up-arrow, .down-arrow {
+  cursor: pointer;
+}

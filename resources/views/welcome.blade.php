@@ -20,6 +20,8 @@
       </div>
       <div id="get-started">
         <!-- <button class="btn btn-info"><a href="/">Get Started!</a></button> -->
+      
+        <?php echo "This is PHP!"; ?>
       </div>
     </div>
   </body>
