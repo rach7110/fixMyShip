@@ -12,8 +12,8 @@
   <body>
     <div class="container">
       <div id="login">
-        <a href="/">Create Account</a>
-        <a href="/">Log-In</a>
+        <a href="{{ url('/register') }}">Create Account</a>
+        <a href="{{ url('/login') }}">Log-In</a>
       </div>
       <div class="content">
         <div id="welcome-title">Fix My Ship</div>

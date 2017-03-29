@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// Route::get('questions', 'QuestionsController@index')->name('questions');
+
+Route::auth();
+
+Route::get('/home', 'HomeController@index');
